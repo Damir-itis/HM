@@ -16,7 +16,6 @@ public class Parser {
     static int parseIntOrError(String val) {
         try {
             return Integer.parseInt(val);
-
         } catch (NumberFormatException e) {
             System.out.println("Val1 is not int");
             System.exit(2);
