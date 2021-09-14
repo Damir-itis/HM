@@ -3,7 +3,6 @@ public class Main {
         if (args.length < 3) {
             System.out.println("Args format is: val1 +-/* val2");
             System.exit(1);
-            return;
         }
 
         var val1 = Parser.parseIntOrError(args[0]);

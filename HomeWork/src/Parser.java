@@ -9,7 +9,7 @@ public class Parser {
             return operator;
         }
         System.out.println("Operator is not supported");
-        //System.exit(3);
+        System.exit(3);
         return "";
     }
 
@@ -19,7 +19,7 @@ public class Parser {
 
         } catch (NumberFormatException e) {
             System.out.println("Val1 is not int");
-            //System.exit(2);
+            System.exit(2);
             return 0;
         }
     }
