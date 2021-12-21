@@ -7,8 +7,11 @@
     <groupId>com.Damir-itis</groupId>
     <artifactId>HW</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
-        <module>hw1/</module>
+        <module>hw1</module>
+        <module>hw2</module>
+        <module>NewTask</module>
     </modules>
 
     <packaging>pom</packaging>

@@ -33,18 +33,18 @@ public class ParserTest {
         Parser.parseOperatorOrError(operator);
     }
 
-    @Test
-    public void parseOperatorOrError() throws InvalidPropertiesFormatException {
-        String operator = "%";
-        exit.expectSystemExitWithStatus(3);
-        Parser.parseOperatorOrError(operator);
-    }
+//    @Test
+//    public void parseOperatorOrError() throws InvalidPropertiesFormatException {
+//        String operator = "%";
+//        exit.expectSystemExitWithStatus(3);
+//        Parser.parseOperatorOrError(operator);
+  //  }
 
-    @Test
-    public void parseIntOrError(){
-        String string = "D";
-        exit.expectSystemExitWithStatus(2);
-        Parser.parseIntOrError(string);
-    }
+//    @Test
+//    public void parseIntOrError(){
+//        String string = "D";
+//        exit.expectSystemExitWithStatus(2);
+//        Parser.parseIntOrError(string);
+//    }
 }
 
