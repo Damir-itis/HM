@@ -1,13 +1,13 @@
-package fertdt;
+package com.example.calcdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Hw12Application {
+public class CalcDemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Hw12Application.class, args);
+        SpringApplication.run(CalcDemoApplication.class, args);
     }
 
 }
